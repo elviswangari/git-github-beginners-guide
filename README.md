@@ -30,7 +30,21 @@ By the end of this session, you will:
 
 ---
 
-## 2. Two Ways to Start a Git Project
+## 2. Prerequisites:
+Before starting, make sure you have the following:
+1. **Git Installed**: You need Git installed on your machine to follow along. [Download Git here](https://git-scm.com/downloads).
+2. **GitHub Account**: Create a GitHub account if you don't already have one. You can do so at [github.com](https://github.com/join).
+3. **Basic Git Configuration**: After installing Git, you’ll need to set up your Git username and email, which will be used to track changes.
+   - Open Git Bash (Windows) or Terminal (Mac/Linux) and run the following commands:
+     ```bash
+     git config --global user.name "Your Name"
+     git config --global user.email "your.email@example.com"
+     ```
+   - This ensures that your commits are associated with your identity.
+
+---
+
+## 3. Two Ways to Start a Git Project
 
 ### (a) Cloning an Online Repository  
 - You can clone an existing repository from GitHub to work on it locally.
@@ -40,7 +54,7 @@ By the end of this session, you will:
 
 ---
 
-## 3. Personal Access Tokens (PAT) in GitHub
+## 4. Personal Access Tokens (PAT) in GitHub
 
 ### What is a Personal Access Token (PAT)?
 - A **Personal Access Token (PAT)** is a secure method of authentication used to interact with GitHub's API.
@@ -73,7 +87,7 @@ By the end of this session, you will:
 
 ---
 
-## 4. Practical Part 1: Cloning an Existing Repository
+## 5. Practical Part 1: Cloning an Existing Repository
 
 ### Scenario: Clone an existing project from GitHub and make some changes.
 
@@ -118,7 +132,7 @@ By the end of this session, you will:
 
 ---
 
-## 5. Practical Part 2: Creating a Local Repository with `git init`
+## 6. Practical Part 2: Creating a Local Repository with `git init`
 
 ### Scenario: Create a new Git repository locally and push it to GitHub.
 
@@ -154,7 +168,7 @@ By the end of this session, you will:
 
 6. **Connect Your Local Repo to GitHub**:
     ```bash
-    git remote add origin https://PAT@github.com/username/github_project.git
+    git remote add origin https://<PAT>@github.com/username/github_project.git
     ```
 
 7. **Push Your Changes to GitHub**:
@@ -166,7 +180,7 @@ By the end of this session, you will:
 
 ---
 
-## 6. Practical Recap and Q&A
+## 7. Practical Recap and Q&A
 
 - **Recap**: We’ve covered how to clone a repository, make changes, and push them to GitHub, as well as how to create a repository locally and link it to GitHub.
 - **Q&A**: Open session for any questions or clarification.
